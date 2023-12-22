@@ -5,8 +5,8 @@ const PORT = 5050;
 const start = async () => {
     try {
         await fastify.listen(PORT)
-      } catch (error) {
+    } catch (error) {
         fastify.log.error(error)
         process.exit(1)
-      }
+    }
 }
