@@ -13,8 +13,8 @@ const start = async () => {
 
 start();
 
-fastify.get('/healthcheck', (req, res) => {
-    reply.send({
+fastify.get('/test', (req, res) => {
+    res.send({
         message: 'Hello, Welcome to Fastify Server.'
     })
 })
