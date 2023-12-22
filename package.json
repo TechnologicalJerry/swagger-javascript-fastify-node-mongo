@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TechnologicalJerry/swagger-javascript-fastify-node-mongo/issues"
   },
-  "homepage": "https://github.com/TechnologicalJerry/swagger-javascript-fastify-node-mongo#readme"
+  "homepage": "https://github.com/TechnologicalJerry/swagger-javascript-fastify-node-mongo#readme",
+  "dependencies": {
+    "fastify": "^4.25.1"
+  }
 }
