@@ -1,5 +1,4 @@
 const fastify = require('fastify')({ logger: true });
-const usersData = require('./dummyDatabase.json');
 
 const PORT = 5050;
 
@@ -14,12 +13,3 @@ const start = async () => {
 
 start();
 
-fastify.get('/healthcheck', (req, res) => {
-    res.send({
-        message: 'Hello, Welcome to Fastify Server.'
-    })
-})
-
-fastify.get('/getAllUsers', (req, res) => {
-    res.send(usersData)
-})
