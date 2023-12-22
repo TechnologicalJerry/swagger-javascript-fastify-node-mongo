@@ -1,0 +1,1 @@
+# swagger-javascript-fastify-node-mongo
