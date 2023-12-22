@@ -12,3 +12,9 @@ const start = async () => {
 }
 
 start();
+
+fastify.get('/healthcheck', (req,res) => {
+    reply.send({
+        message: 'Hello, Welcome to Fastify Server.'
+    })
+})
