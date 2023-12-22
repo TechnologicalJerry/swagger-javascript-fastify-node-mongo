@@ -1,4 +1,5 @@
 const fastify = require('fastify')({ logger: true });
+const userData = require('./dummyDatabase.json');
 
 const PORT = 5050;
 
