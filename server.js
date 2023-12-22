@@ -13,3 +13,4 @@ const start = async () => {
 
 start();
 
+fastify.register(require('./routes/user.routes'));
