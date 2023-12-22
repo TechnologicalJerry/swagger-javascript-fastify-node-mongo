@@ -1,1 +1,1 @@
-const fastify = require('fastify');
+const fastify = require('fastify')({ logger: true });
