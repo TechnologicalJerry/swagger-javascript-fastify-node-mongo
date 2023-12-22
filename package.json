@@ -1,0 +1,19 @@
+{
+  "name": "swagger-javascript-fastify-node-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnologicalJerry/swagger-javascript-fastify-node-mongo.git"
+  },
+  "author": "technojerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechnologicalJerry/swagger-javascript-fastify-node-mongo/issues"
+  },
+  "homepage": "https://github.com/TechnologicalJerry/swagger-javascript-fastify-node-mongo#readme"
+}
