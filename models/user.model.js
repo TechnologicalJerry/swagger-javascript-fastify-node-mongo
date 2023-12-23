@@ -1,7 +1,7 @@
 
 
 const getUsersOptions = {
-    
+
     schema: {
         response: {
             200: {
@@ -16,6 +16,7 @@ const getUsersOptions = {
             },
         },
     },
+    
     handler: getUser,
 }
 
