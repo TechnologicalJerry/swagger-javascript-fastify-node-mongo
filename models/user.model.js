@@ -18,4 +18,4 @@ const getUsersOptions = {
     },
 }
 
-module.exports = getUsersOptions;
+module.exports = { getUsersOptions };
