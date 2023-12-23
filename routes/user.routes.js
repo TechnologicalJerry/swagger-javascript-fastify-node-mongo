@@ -8,7 +8,7 @@ function userRoutes(fastify, options, done) {
         })
     })
 
-    fastify.get('/getAllUsers', (req, res) => {
+    fastify.get('/getAllUsers', getUsersOptions, (req, res) => {
         res.send(usersData)
     })
 
