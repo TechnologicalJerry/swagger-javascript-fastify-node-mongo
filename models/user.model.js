@@ -1,6 +1,6 @@
 
 
-const getItemsOpts = {
+const getUsersOptions = {
     schema: {
         response: {
             200: {
