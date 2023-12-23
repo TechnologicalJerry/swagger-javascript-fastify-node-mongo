@@ -14,6 +14,7 @@ function userRoutes(fastify, options, done) {
 
     fastify.get('/getUser/:id', (req, res) => {
         const { id } = req.params;
+        const user = user.find();
         res.send(usersData)
     })
 
