@@ -9,7 +9,7 @@ const start = async () => {
         await fastify.listen(PORT);
     } catch (error) {
         fastify.log.error(error);
-        process.exit(1)
+        process.exit(1);
     }
 }
 
