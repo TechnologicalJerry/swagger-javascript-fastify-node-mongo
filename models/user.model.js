@@ -1,6 +1,7 @@
 
 
 const getUsersOptions = {
+    
     schema: {
         response: {
             200: {
