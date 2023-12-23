@@ -12,6 +12,10 @@ function userRoutes(fastify, options, done) {
         res.send(usersData)
     })
 
+    fastify.get('/getUser/:id', (req, res) => {
+        res.send(usersData)
+    })
+
     done()
 
 }
