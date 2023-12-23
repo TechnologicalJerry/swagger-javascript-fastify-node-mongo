@@ -1,5 +1,7 @@
 const usersData = require('../dummyDatabase.json');
 
+const getUsersOptions = require('../models/user.model');
+
 function userRoutes(fastify, options, done) {
 
     fastify.get('/healthcheck', (req, res) => {
