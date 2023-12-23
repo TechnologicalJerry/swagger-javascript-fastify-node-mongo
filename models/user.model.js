@@ -16,8 +16,6 @@ const getUsersOptions = {
             },
         },
     },
-    
-    handler: getUser,
 }
 
 module.exports = getUsersOptions;
