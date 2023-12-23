@@ -5,9 +5,9 @@ const getUsersOptions = {
         response: {
             200: {
                 type: 'array',
-                items: Item,
+                user: Item,
             },
         },
     },
-    handler: getItems,
+    handler: getUser,
 }
