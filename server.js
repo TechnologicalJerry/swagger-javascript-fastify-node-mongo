@@ -1,5 +1,7 @@
 const fastify = require('fastify')({ logger: true });
 
+const HOST = 'localhost';
+
 const PORT = 5050;
 
 const start = async () => {
