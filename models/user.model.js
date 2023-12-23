@@ -5,7 +5,13 @@ const getUsersOptions = {
         response: {
             200: {
                 type: 'array',
-                user: Item,
+                user: {
+                    type: 'object',
+                    properties: {
+                        id: {},
+                        name: {}
+                    }
+                },
             },
         },
     },
