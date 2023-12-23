@@ -6,7 +6,7 @@ const getUsersOptions = {
         response: {
             200: {
                 type: 'array',
-                user: {
+                users: {
                     type: 'object',
                     properties: {
                         id: { type: 'string' },
