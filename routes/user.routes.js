@@ -13,7 +13,7 @@ function userRoutes(fastify, options, done) {
     })
 
     fastify.get('/getUser/:id', (req, res) => {
-        const {id} = req.params;
+        const { id } = req.params;
         res.send(usersData)
     })
 
