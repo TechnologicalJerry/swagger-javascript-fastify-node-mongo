@@ -16,4 +16,4 @@ function userRoutes(fastify, options, done) {
 
 }
 
-module.exports = userRoutes
+module.exports = userRoutes;
