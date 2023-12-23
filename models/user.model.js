@@ -8,8 +8,8 @@ const getUsersOptions = {
                 user: {
                     type: 'object',
                     properties: {
-                        id: {},
-                        name: {}
+                        id: {type: 'string'},
+                        name: {type: 'string'}
                     }
                 },
             },
