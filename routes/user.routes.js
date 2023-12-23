@@ -18,7 +18,7 @@ function userRoutes(fastify, options, done) {
         res.send(user);
     })
 
-    done()
+    done();
 
 }
 
